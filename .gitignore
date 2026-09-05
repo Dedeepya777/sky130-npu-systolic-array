@@ -1,0 +1,22 @@
+# Simulation & Build Artifacts
+sim/*.vvp
+sim/*.vcd
+sim/*.log
+*.vvp
+*.vcd
+a.out
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OpenLane / OpenROAD Run Logs & Outputs
+openlane/runs/
+runs/
+*.log
+
+# Editor / OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
