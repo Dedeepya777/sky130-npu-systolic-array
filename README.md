@@ -1,9 +1,16 @@
 # 4×4 Weight-Stationary Systolic Array NPU (ASIC / OpenLane Ready)
 
+[![HDL](https://img.shields.io/badge/Language-Verilog--2001%20%7C%20SystemVerilog-blue.svg)](rtl/)
+[![Process](https://img.shields.io/badge/PDK-SkyWater%20130nm-orange.svg)](openlane/)
+[![Verification](https://img.shields.io/badge/Simulation-100%25%20Passing%20(6%2F6)-brightgreen.svg)](tb/)
+[![Roadmap](https://img.shields.io/badge/Roadmap-Active%20Milestones-blueviolet.svg)](ROADMAP.md)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 > **Research Paper**: *"Domain-Specific Accelerator Architectures: NPUs vs. GPUs in On-Device AI"*  
 > **Course / Symposium**: COS231 Computer Architecture | TechConnect World Innovation Conference  
 > **Target Process**: SkyWater 130nm (`sky130_fd_sc_hd`) via OpenLane & OpenROAD  
-> **Status**: Synthesizable, Simulated, Verified (6/6 Tests Passed), Silicon-PPA Profiled
+> **Status**: Synthesizable, Simulated, Verified (100% Tests Passed), Silicon-PPA Profiled  
+> **Roadmap**: See [ROADMAP.md](ROADMAP.md) for ongoing development milestones (16×16 scale-up, C driver, OpenLane GDSII).
 
 ---
 
